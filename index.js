@@ -33,9 +33,7 @@ function calcularNivel(vitorias, derrotas) {
     nivel = "Imortal";
   }
 
-  console.log(
-    "O Herói tem um saldo de " + saldoVitorias + " e está no nível de " + nivel
-  );
+  console.log("O Herói tem um saldo de " + saldoVitorias + " e está no nível de " + nivel);
 }
 
 calcularNivel(Vitorias, Derrotas);
